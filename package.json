@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Darian Nocer",
-  "license": "ISC"
+  "homepage": "git@github.com:darnocer/lunch.git",
+  "author": "Darian Nocera",
+  "license": "ISC",
+  "devDependencies": {}
 }
