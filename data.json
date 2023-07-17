@@ -28,9 +28,20 @@
     "items": ["brie", "cheddar", "gouda", "monteray jack", "harvati"],
     "include": false
   },
+  "spread": {
+    "items": [
+      "peanut butter",
+      "honey",
+      "fig jam",
+      "hummus",
+      "guacamole",
+      "cheese spread"
+    ],
+    "include": false
+  },
   "treat": {
     "items": [
-      "Almond Slivers",
+      "Almonds",
       "Pistachios",
       "Cashews",
       "Dried Cranberries",
@@ -42,13 +53,7 @@
       "Mini Pretzels",
       "Sunflower Seeds",
       "Pumpkin Seeds",
-      "Mini Peanut Butter Cups",
-      "Marinated Olives",
-      "Cheese Spread",
-      "Hummus",
-      "Guacamole",
-      "Fig Jam",
-      "Honey Sticks",
+      "Peanut Butter Cup",
       "Granola Bites"
     ],
     "include": false
