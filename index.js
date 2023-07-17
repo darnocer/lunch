@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   // Fetch JSON data
   function getData() {
+    // FETCH FOR LOCAL DATA
     // fetch("data.json")
+    // FETCH FOR GITHUB PAGES
     fetch("https://darnocer.github.io/lunch/data.json")
       .then((response) => {
         if (!response.ok) {
