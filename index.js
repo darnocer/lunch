@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let grainItemSelect = document.querySelector("#grain-item");
   let cheeseItemSelect = document.querySelector("#cheese-item");
   let treatItemSelect = document.querySelector("#treat-item");
+  let spreadItemSelect = document.querySelector("#spread-item");
 
   function init() {
     fruitItemSelect.innerHTML = "";
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     grainItemSelect.innerHTML = "";
     cheeseItemSelect.innerHTML = "";
     treatItemSelect.innerHTML = "";
+    spreadItemSelect.innerHTML = "";
   }
 
   init();
@@ -45,7 +47,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     console.log("data: ", data);
 
     const lunchFruit = getRandomItem(data.fruit.items);
-
     if (!document.querySelector("#fruit-lock").checked) {
       fruitItemSelect.innerHTML = lunchFruit;
     }
@@ -75,10 +76,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
       treatItemSelect.innerHTML = lunchTreat;
     }
 
-    let lunchArr = [];
-    lunchArr.push(lunchFruit, lunchMeat, lunchVeggie, lunchGrain, lunchCheese);
-    console.log(lunchArr);
-    return lunchArr;
+    const lunchSpread = getRandomItem(data.spread.items);
+    if (!document.querySelector("#spread-lock").checked) {
+      spreadItemSelect.innerHTML = lunchSpread;
+    }
   }
 
   // EVENT LISTENERS

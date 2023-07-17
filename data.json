@@ -18,7 +18,7 @@
   },
   "grain": {
     "items": ["buttery crackers", "water crackers", "pita chips", "crostini"],
-    "include": false
+    "include": true
   },
   "meat": {
     "items": ["pepperoni", "ham", "smoked turkey", "salami"],
@@ -26,7 +26,7 @@
   },
   "cheese": {
     "items": ["brie", "cheddar", "gouda", "monteray jack", "harvati"],
-    "include": false
+    "include": true
   },
   "spread": {
     "items": [
@@ -37,7 +37,7 @@
       "guacamole",
       "cheese spread"
     ],
-    "include": false
+    "include": true
   },
   "treat": {
     "items": [
@@ -56,6 +56,6 @@
       "Peanut Butter Cup",
       "Granola Bites"
     ],
-    "include": false
+    "include": true
   }
 }
