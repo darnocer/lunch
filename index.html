@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>What's for lunch?</h1>
+    <button id="generate-btn">Generate</button>
+    <h2>Items</h2>
+    <ul id="items">
+      <li id="meat">
+        <input type="checkbox" id="meat-lock" /> Meat:
+        <span class="generatedItem" id="meat-item"></span>
+      </li>
+      <li id="cheese">
+        <input type="checkbox" id="cheese-lock" /> Cheese:
+        <span class="generatedItem" id="cheese-item"></span>
+      </li>
+      <li id="grains">
+        <input type="checkbox" id="grain-lock" /> Grain:
+        <span class="generatedItem" id="grain-item"></span>
+      </li>
+      <li id="veggie">
+        <input type="checkbox" id="veggie-lock" /> Veggie:
+        <span class="generatedItem" id="veggie-item"></span>
+      </li>
+      <li id="fruit">
+        <input type="checkbox" id="fruit-lock" /> Fruit:
+        <span class="generatedItem" id="fruit-item"></span>
+      </li>
+      <li id="treat">
+        <input type="checkbox" id="treat-lock" /> Treat:
+        <span class="generatedItem" id="treat-item"></span>
+      </li>
+    </ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>

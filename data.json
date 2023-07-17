@@ -1,0 +1,56 @@
+{
+  "fruit": {
+    "items": [
+      "apple slices",
+      "grapes",
+      "strawberries",
+      "raspberries",
+      "blueberries",
+      "mandarin slices",
+      "cherries",
+      "kiwi"
+    ],
+    "include": true
+  },
+  "veggie": {
+    "items": ["carrots", "snap peas", "celery", "cucumber", "broccoli"],
+    "include": true
+  },
+  "grain": {
+    "items": ["buttery crackers", "water crackers", "pita chips", "crostini"],
+    "include": false
+  },
+  "meat": {
+    "items": ["pepperoni", "ham", "smoked turkey", "salami"],
+    "include": true
+  },
+  "cheese": {
+    "items": ["brie", "cheddar", "gouda", "monteray jack", "harvati"],
+    "include": false
+  },
+  "treat": {
+    "items": [
+      "Almond Slivers",
+      "Pistachios",
+      "Cashews",
+      "Dried Cranberries",
+      "Dried Mango Slices",
+      "Raisins",
+      "Dark Chocolate Chips",
+      "White Chocolate Chips",
+      "Milk Chocolate Squares",
+      "Mini Pretzels",
+      "Sunflower Seeds",
+      "Pumpkin Seeds",
+      "Mini Peanut Butter Cups",
+      "Marinated Olives",
+      "Cheese Spread",
+      "Hummus",
+      "Guacamole",
+      "Fig Jam",
+      "Honey Sticks",
+      "Granola Bites"
+    ],
+    "include": false
+  }
+}
