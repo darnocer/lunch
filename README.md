@@ -1,22 +1,21 @@
 # What's for lunch? 🧀 🍞 🥩 🍇 🥕 🍫
 
-Generate items for your Adult Lunchable, I mean.. Charcuterie.
+An Adult Lunchable (er.. Charcuterie) generator. 
+
+A simple app I made with VanillaJS to help my partner and I with ideas for our weekly meal prep. 
 
 https://darnocer.github.io/lunch/
 
-## Motivation
-
-A lil app I made to help my partner and I with our meal prep. And also to make sure I remembered VanillaJS. Making continuous updates to practice some fundamental concepts and experiement with refacoring in various ways.
-
 ## Usage
 
-- Click "Generate" to generate a random food item for each category.
-- Click the checkbox to "lock" an item and regenerate items for the other catgories.
+1. Click "Generate" to generate a random food item for each category.
+2. Click the checkbox to "lock" an item you like
+3. Click "Generate" again to re-generate items for the unlocked catgeories 
 
 ## Setup
 
 - Clone to your local machine
-- Update items in `data.json`
+- Update food items in `data.json`
 - In `index.js`, update `fetch` to pull from `data.json` for local usage
 - Use hosted URL if deployed to Github Pages, eg.
 
@@ -24,10 +23,4 @@ A lil app I made to help my partner and I with our meal prep. And also to make s
 fetch("https://darnocer.github.io/lunch/data.json");
 ```
 
-## ToDo
 
-- [ ] Implement CRUD:
-  - [ ] Add/remove categories
-  - [ ] Edit data from front-end
-- [ ] Make prettier
-- [ ] Logic for food pairings
